@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Microsoft- Official Home Page</title>
+  </head>
+  <body>
+    <div class="container mx-auto">
+      <div class="navbar flex justify-between items-center p-4">
+        <!-- justify between divides space equally -->
+        <div class="flex justify-center items-center md:order-2">
+          <div class="teenlines inline-block p-4 cursor-pointer md:hidden">
+            <div class="line h-0.5 w-4 my-1 bg-black"></div>
+            <div class="line h-0.5 w-4 my-1 bg-black"></div>
+            <div class="line h-0.5 w-4 my-1 bg-black"></div>
+          </div>
+          <div class="search md:hidden w-7">
+            <img src="search.png" alt="" />
+          </div>
+          <!-- search logo for mob -->
+        </div>
+
+        <div class="logo text-center md:order-1 flex">
+          <div class="w-36 p-4"><img src="micro.png" alt="" /></div>
+          <!-- microsoft logo -->
+          <div
+            class="features absolute inset-0 -translate-x-96 md:flex md:mx-4 md:space-x-4 md:translate-x-0 md:static pt-4"
+          >
+            <div class="fitem hover:underline cursor-pointer">Microsoft 365</div>
+            <div class="fitem hover:underline cursor-pointer">Office</div>
+            <div class="fitem hover:underline cursor-pointer">Windows</div>
+            <div class="fitem hover:underline cursor-pointer">Surface</div>
+            <div class="fitem hover:underline cursor-pointer">Xbox</div>
+            <div class="fitem hover:underline cursor-pointer">Support</div>
+          </div>
+        </div>
+
+        <div class="allmicro hidden md:block md:order-3 md:mr-[-10rem] cursor-pointer hover:underline">All microsoft</div>
+        
+        <div class="cart md:order-4 flex">
+          
+          <div class="search hidden md:block  w-4 mx-5 hover:cursor-pointer">
+            
+            <img class="w-4" src="search.png" alt="" />
+          </div>
+
+          <div class="flex flex-row gap-3">
+            <div class="w-4 hover:cursor-pointer">
+              <img src="cart.png" alt="" />
+            </div>
+            <div class="w-4 hover:cursor-pointer">
+              <img src="account.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slider flex flex-col-reverse md:flex-row bg-[#f2f2f4] mx-2">
+        <div
+          class="left flex flex-col items-center justify-center md:text-base py-8 md:items-baseline"
+        >
+          <h1 class="text-2xl md:text-4xl m-5 md:items-start font-medium">
+            Surface Laptop 4
+          </h1>
+          <p class="m-5 w-3/4 text-center md:text-left">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit,
+            dolorem?adipisicing elit. Velit, dolorem
+          </p>
+          <button class="bg-black text-white p-2 mx-5">Shop now</button>
+        </div>
+
+        <div class="right md:w-[64rem]">
+          <img src="laptop.avif" alt="" />
+        </div>
+      </div>
+
+
+      <div class="promo flex flex-col md:flex-row space-y-6 justify-center">
+
+        <div class="item mx-4 mt-6 flex items-center space-x-6 hover:underline cursor-pointer">
+          <img  src="promo1.png" alt="" class="w-6">
+          <span class="font-medium">Choose your microsoft 365</span>
+        </div>
+
+        <div class="item mx-4  flex items-center space-x-6 hover:underline cursor-pointer">
+          <img  src="promo2.png" alt="" class="w-6">
+          <span class="font-medium">Explore Surface devices</span>
+        </div>
+
+        <div class="item mx-4  flex items-center space-x-6 hover:underline cursor-pointer">
+          <img  src="promo3.png" alt="" class="w-6">
+          <span class="font-medium">Buy Xbox Games</span>
+        </div>
+
+        <div class="item mx-4  flex items-center space-x-6 hover:underline cursor-pointer">
+          <img  src="promo1.png" alt="" class="w-6">
+          <span class="font-medium">Get Windows 11</span>
+        </div>
+        
+      </div>
+
+    </div>
+  </body>
+</html>
